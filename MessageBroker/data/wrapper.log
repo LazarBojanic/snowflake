@@ -4381,3 +4381,451 @@ INFO   | jvm 1    | 2023/01/21 04:53:56 | 	at org.eclipse.jetty.servlet.ServletH
 INFO   | jvm 1    | 2023/01/21 04:53:56 | 	... 78 more
 INFO   | jvm 1    | 2023/01/21 06:10:40 |  INFO | Connector vm://localhost started
 INFO   | jvm 1    | 2023/01/21 06:43:56 |  INFO | Connector vm://localhost stopped
+STATUS | wrapper  | 2023/05/08 16:54:59 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/05/08 16:55:00 | Launching a JVM...
+INFO   | jvm 1    | 2023/05/08 16:55:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/05/08 16:55:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/05/08 16:55:01 | 
+INFO   | jvm 1    | 2023/05/08 16:55:01 | Java Runtime: Oracle Corporation 17.0.7 C:\Program Files\Java\jdk-17
+INFO   | jvm 1    | 2023/05/08 16:55:01 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2023/05/08 16:55:01 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=3dM4MRnR1bHFrOEP -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=12624 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2023/05/08 16:55:01 | Extensions classpath:
+INFO   | jvm 1    | 2023/05/08 16:55:01 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2023/05/08 16:55:01 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2023/05/08 16:55:01 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2023/05/08 16:55:01 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2023/05/08 16:55:01 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2023/05/08 16:55:17 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2023/05/08 16:55:22 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\JavaProjects\snowflake\MessageBroker\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/05/08 16:55:22 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[D:\JavaProjects\snowflake\MessageBroker\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/05/08 16:55:22 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2023/05/08 16:55:22 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 36
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Recovering from the journal @1:393976
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Recovery replayed 6 operations from the journal in 0.029 seconds.
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | PListStore:[D:\JavaProjects\snowflake\MessageBroker\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Apache ActiveMQ 5.17.3 (localhost, ID:Lazar-8615-1683557723578-0:1) is starting
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Listening for connections at: tcp://Lazar:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Listening for connections at: amqp://Lazar:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Listening for connections at: stomp://Lazar:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Listening for connections at: mqtt://Lazar:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2023/05/08 16:55:23 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2023/05/08 16:55:24 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2023/05/08 16:55:24 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@2ce89b4c{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2023/05/08 16:55:24 |  INFO | Listening for connections at ws://Lazar:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 16:55:24 |  INFO | Connector ws started
+INFO   | jvm 1    | 2023/05/08 16:55:24 |  INFO | Apache ActiveMQ 5.17.3 (localhost, ID:Lazar-8615-1683557723578-0:1) started
+INFO   | jvm 1    | 2023/05/08 16:55:24 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2023/05/08 16:55:25 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2023/05/08 16:55:25 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2023/05/08 16:55:25 |  WARN | unavailable
+INFO   | jvm 1    | 2023/05/08 16:55:25 | java.lang.NullPointerException: Cannot invoke "String.length()" because "replacement" is null
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.regex.Matcher.appendExpandedReplacement(Matcher.java:1014) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.regex.Matcher.appendReplacement(Matcher.java:907) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.jolokia.util.NetworkUtil.replaceExpression(NetworkUtil.java:366) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.jolokia.restrictor.RestrictorFactory.createRestrictor(RestrictorFactory.java:48) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.jolokia.http.AgentServlet.createRestrictor(AgentServlet.java:195) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.jolokia.http.AgentServlet.init(AgentServlet.java:135) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHolder$Wrapper.init(ServletHolder.java:1345) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:774) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:411) ~[jetty-security-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417) ~[jetty-security-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.Server.start(Server.java:423) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.Server.doStart(Server.java:387) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:283) ~[spring-core-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:123) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:108) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:936) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.22.jar:4.22]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.22.jar:4.22]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) ~[activemq-broker-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) ~[activemq-broker-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) ~[activemq.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.Main.main(Main.java:115) ~[activemq.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) ~[wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 |  WARN | Failed startup of context o.e.j.w.WebAppContext@478fda14{Apache ActiveMQ REST API,/api,file:///D:/JavaProjects/snowflake/MessageBroker/webapps/api/,UNAVAILABLE}
+INFO   | jvm 1    | 2023/05/08 16:55:25 | javax.servlet.ServletException: jolokia-agent==org.jolokia.http.AgentServlet@c61e72f3{jsp=null,order=1,inst=true,async=false,src=DESCRIPTOR:file:///D:/JavaProjects/snowflake/MessageBroker/webapps/api/WEB-INF/web.xml,STARTED}
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:650) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:774) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:411) ~[jetty-security-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417) ~[jetty-security-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.Server.start(Server.java:423) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.server.Server.doStart(Server.java:387) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:283) ~[spring-core-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:123) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:108) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:936) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.22.jar:4.22]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.22.jar:4.22]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) ~[activemq-broker-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) ~[activemq-broker-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) ~[activemq.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.apache.activemq.console.Main.main(Main.java:115) ~[activemq.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) ~[wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | Caused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "replacement" is null
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.regex.Matcher.appendExpandedReplacement(Matcher.java:1014) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at java.util.regex.Matcher.appendReplacement(Matcher.java:907) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.jolokia.util.NetworkUtil.replaceExpression(NetworkUtil.java:366) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.jolokia.restrictor.RestrictorFactory.createRestrictor(RestrictorFactory.java:48) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.jolokia.http.AgentServlet.createRestrictor(AgentServlet.java:195) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.jolokia.http.AgentServlet.init(AgentServlet.java:135) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHolder$Wrapper.init(ServletHolder.java:1345) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 16:55:25 | 	... 78 more
+STATUS | wrapper  | 2023/05/08 17:19:22 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/05/08 17:19:22 | Launching a JVM...
+INFO   | jvm 1    | 2023/05/08 17:19:23 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/05/08 17:19:23 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/05/08 17:19:23 | 
+INFO   | jvm 1    | 2023/05/08 17:19:23 | Java Runtime: Oracle Corporation 17.0.7 C:\Program Files\Java\jdk-17
+INFO   | jvm 1    | 2023/05/08 17:19:23 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2023/05/08 17:19:23 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=BhsF6zhPzApLikxT -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=37760 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2023/05/08 17:19:23 | Extensions classpath:
+INFO   | jvm 1    | 2023/05/08 17:19:23 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2023/05/08 17:19:23 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2023/05/08 17:19:23 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2023/05/08 17:19:23 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2023/05/08 17:19:23 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2023/05/08 17:19:29 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\JavaProjects\snowflake\MessageBroker\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[D:\JavaProjects\snowflake\MessageBroker\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 42
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | PListStore:[D:\JavaProjects\snowflake\MessageBroker\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Apache ActiveMQ 5.17.3 (localhost, ID:Lazar-3157-1683559170622-0:1) is starting
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Listening for connections at: tcp://Lazar:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Listening for connections at: amqp://Lazar:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Listening for connections at: stomp://Lazar:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Listening for connections at: mqtt://Lazar:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@587b781d{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Listening for connections at ws://Lazar:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Connector ws started
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | Apache ActiveMQ 5.17.3 (localhost, ID:Lazar-3157-1683559170622-0:1) started
+INFO   | jvm 1    | 2023/05/08 17:19:30 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2023/05/08 17:19:31 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2023/05/08 17:19:31 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2023/05/08 17:19:31 |  WARN | unavailable
+INFO   | jvm 1    | 2023/05/08 17:19:31 | java.lang.NullPointerException: Cannot invoke "String.length()" because "replacement" is null
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at java.util.regex.Matcher.appendExpandedReplacement(Matcher.java:1014) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at java.util.regex.Matcher.appendReplacement(Matcher.java:907) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.jolokia.util.NetworkUtil.replaceExpression(NetworkUtil.java:366) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.jolokia.restrictor.RestrictorFactory.createRestrictor(RestrictorFactory.java:48) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.jolokia.http.AgentServlet.createRestrictor(AgentServlet.java:195) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.jolokia.http.AgentServlet.init(AgentServlet.java:135) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.servlet.ServletHolder$Wrapper.init(ServletHolder.java:1345) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:774) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:31 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:411) ~[jetty-security-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417) ~[jetty-security-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.Server.start(Server.java:423) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.Server.doStart(Server.java:387) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:283) ~[spring-core-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:123) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:108) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:936) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.22.jar:4.22]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.22.jar:4.22]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) ~[activemq-broker-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) ~[activemq-broker-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) ~[activemq.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.Main.main(Main.java:115) ~[activemq.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) ~[wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 |  WARN | Failed startup of context o.e.j.w.WebAppContext@1f70c040{Apache ActiveMQ REST API,/api,file:///D:/JavaProjects/snowflake/MessageBroker/webapps/api/,UNAVAILABLE}
+INFO   | jvm 1    | 2023/05/08 17:19:32 | javax.servlet.ServletException: jolokia-agent==org.jolokia.http.AgentServlet@c61e72f3{jsp=null,order=1,inst=true,async=false,src=DESCRIPTOR:file:///D:/JavaProjects/snowflake/MessageBroker/webapps/api/WEB-INF/web.xml,STARTED}
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:650) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:774) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) ~[jetty-webapp-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:411) ~[jetty-security-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417) ~[jetty-security-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.Server.start(Server.java:423) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.server.Server.doStart(Server.java:387) ~[jetty-server-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) ~[jetty-util-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:283) ~[spring-core-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:123) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:108) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:936) ~[spring-beans-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.22.jar:4.22]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.22.jar:4.22]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) ~[activemq-spring-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) ~[activemq-broker-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) ~[activemq-broker-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) ~[activemq-console-5.17.3.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) ~[activemq.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.apache.activemq.console.Main.main(Main.java:115) ~[activemq.jar:5.17.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) ~[wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | Caused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "replacement" is null
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.util.regex.Matcher.appendExpandedReplacement(Matcher.java:1014) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at java.util.regex.Matcher.appendReplacement(Matcher.java:907) ~[?:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.jolokia.util.NetworkUtil.replaceExpression(NetworkUtil.java:366) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.jolokia.restrictor.RestrictorFactory.createRestrictor(RestrictorFactory.java:48) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.jolokia.http.AgentServlet.createRestrictor(AgentServlet.java:195) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.jolokia.http.AgentServlet.init(AgentServlet.java:135) ~[jolokia-core-1.7.1.jar:?]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.servlet.ServletHolder$Wrapper.init(ServletHolder.java:1345) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[jetty-servlet-9.4.49.v20220914.jar:9.4.49.v20220914]
+INFO   | jvm 1    | 2023/05/08 17:19:32 | 	... 78 more

@@ -4,167 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d215b20-243c-4da6-9ee2-a2a22939f6ae" name="Changes" comment="fixing message broker">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/base/ChangePasswordNotificationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/base/RegistrationConfirmationNotificationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/base/ReservationCanceledNotificationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/base/ReservationMadeNotificationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/base/ReservationReminderNotificationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/view/NotificationViewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/ReviewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/ReviewViewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/userservice/base/ChangePasswordDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/controller/ReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/http/RestConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/ReviewMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/ReviewRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageBroker/data/activemq.log" beforeDir="false" afterPath="$PROJECT_DIR$/MessageBroker/data/activemq.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageBroker/data/kahadb/db-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/MessageBroker/data/kahadb/db-1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageBroker/data/kahadb/db.data" beforeDir="false" afterPath="$PROJECT_DIR$/MessageBroker/data/kahadb/db.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageBroker/data/kahadb/db.redo" beforeDir="false" afterPath="$PROJECT_DIR$/MessageBroker/data/kahadb/db.redo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageBroker/data/kahadb/lock" beforeDir="false" afterPath="$PROJECT_DIR$/MessageBroker/data/kahadb/lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageBroker/data/wrapper.log" beforeDir="false" afterPath="$PROJECT_DIR$/MessageBroker/data/wrapper.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/.vs/ReservationServiceClient/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/.vs/ReservationServiceClient/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/.vs/ReservationServiceClient/FileContentIndex/93c679ce-c82b-44be-b5fd-f2e596caaebd.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/.vs/ReservationServiceClient/FileContentIndex/b5e66c33-252b-414a-b541-218483a18b8f.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/.vs/ReservationServiceClient/FileContentIndex/c6394d5d-ae88-4aab-9065-7d92ed3e8cd1.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/.vs/ReservationServiceClient/FileContentIndex/e91edaec-1096-4565-a353-7498aaf14296.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/.vs/ReservationServiceClient/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/.vs/ReservationServiceClient/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/ReservationServiceClient.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/ReservationServiceClient.csproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/bin/Debug/net6.0-windows/ReservationServiceClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/bin/Debug/net6.0-windows/ReservationServiceClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/bin/Debug/net6.0-windows/ReservationServiceClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/bin/Debug/net6.0-windows/ReservationServiceClient.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/model/notificationservice/Notification.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/model/reservationservice/base/Firm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/model/reservationservice/base/Firm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/model/reservationservice/base/Reservation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/model/reservationservice/base/Reservation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/model/reservationservice/view/FirmView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/model/reservationservice/view/FirmView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/model/reservationservice/view/ReservationView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/model/reservationservice/view/ReservationView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ReservationServiceClient.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ref/ReservationServiceClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/ref/ReservationServiceClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/refint/ReservationServiceClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/obj/Debug/net6.0-windows/refint/ReservationServiceClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/util/Util.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/util/Util.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/AdminHubForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/AdminHubForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/AdminHubForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/AdminHubForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/ClientEditProfileForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/ClientEditProfileForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/ClientEditProfileForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/ClientEditProfileForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/ClientHubForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/ClientHubForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/ClientHubForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/ClientHubForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/MainForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/MainForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/RegisterAsClientForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/RegisterAsClientForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/RegisterAsClientForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/RegisterAsClientForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/RegisterAsManagerForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/RegisterAsManagerForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/RegisterAsManagerForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/RegisterAsManagerForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/UserStatusForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/UserStatusForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReservationServiceClient/view/UserStatusForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReservationServiceClient/view/UserStatusForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/NotificationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/base/NotificationDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/NotificationTypeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/notificationservice/base/NotificationTypeDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/FirmDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/FirmDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/ReservationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/ReservationDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/VehicleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/VehicleDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/VehicleInFirmDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/base/VehicleInFirmDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/FirmViewDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/FirmViewDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/ReservationViewDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/ReservationViewDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/VehicleInFirmViewDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/VehicleInFirmViewDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/VehicleViewDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/rs/raf/core/dto/reservationservice/view/VehicleViewDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/notificationservice/NotificationDto$NotificationDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/notificationservice/NotificationDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/notificationservice/NotificationTypeDto$NotificationTypeDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/notificationservice/NotificationTypeDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/reservationservice/base/FirmDto$FirmDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/reservationservice/base/FirmDto$FirmDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/reservationservice/base/FirmDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/reservationservice/base/FirmDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/reservationservice/view/FirmViewDto$FirmViewDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/reservationservice/view/FirmViewDto$FirmViewDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/reservationservice/view/FirmViewDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/rs/raf/core/dto/reservationservice/view/FirmViewDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/controller/NotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/domain/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/domain/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/exception/AuthenticationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/listener/EmailListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/listener/EmailListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/listener/helper/MessageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/listener/helper/MessageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/mapper/NotificationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/mapper/NotificationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/runner/InitRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/runner/InitRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/java/rs/raf/notificationservice/service/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/controller/NotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/controller/NotificationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/domain/Notification$NotificationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/domain/Notification$NotificationBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/domain/Notification.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/domain/Notification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/listener/EmailListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/listener/EmailListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/listener/helper/MessageHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/listener/helper/MessageHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/mapper/NotificationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/mapper/NotificationMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/runner/InitRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/runner/InitRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/notificationservice/service/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/reservationservice/exception/AuthenticationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/rs/raf/reservationservice/exception/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/config/ReservationServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/config/ReservationServiceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/controller/ReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/domain/Firm.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/domain/Firm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/domain/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/domain/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/domain/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/domain/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/domain/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/exception/AuthenticationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/FirmMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/FirmMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/ReservationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/ReservationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/VehicleInFirmMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/VehicleInFirmMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/VehicleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/VehicleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/VehicleModelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/VehicleModelMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/VehicleTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/mapper/VehicleTypeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/FirmRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/FirmRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/ReservationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/VehicleInFirmRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/VehicleInFirmRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/VehicleModelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/VehicleModelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/VehicleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/VehicleTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/repository/VehicleTypeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/runner/InitRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/runner/InitRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/service/impl/ReservationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/java/rs/raf/reservationservice/service/impl/ReservationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/config/ReservationServiceConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/domain/Firm$FirmBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/domain/Firm$FirmBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/domain/Firm.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/domain/Firm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/domain/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/domain/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/exception/AuthenticationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/exception/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/mapper/FirmMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/mapper/FirmMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/mapper/VehicleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/mapper/VehicleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/FirmRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/FirmRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/ReservationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/ReservationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/VehicleInFirmRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/VehicleInFirmRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/VehicleModelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/VehicleModelRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/VehicleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/VehicleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/VehicleTypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/repository/VehicleTypeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/runner/InitRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/runner/InitRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/service/ReservationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/service/impl/ReservationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/target/classes/rs/raf/reservationservice/service/impl/ReservationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/config/UserServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/config/UserServiceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/controller/AdminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/controller/AdminUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/controller/ClientUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/controller/ClientUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/controller/ManagerUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/controller/ManagerUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/domain/Review.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/domain/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/domain/UserStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/http/RestConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/http/RestConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/runner/InitRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/runner/InitRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rs/raf/userservice/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/config/UserServiceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/config/UserServiceConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/controller/AdminUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/controller/AdminUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/controller/ClientUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/controller/ClientUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/controller/ManagerUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/controller/ManagerUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/domain/Review$ReviewBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/domain/Review.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/domain/UserStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/domain/UserStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/runner/InitRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/runner/InitRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/rs/raf/userservice/service/impl/UserServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="4d215b20-243c-4da6-9ee2-a2a22939f6ae" name="Changes" comment="fixing message broker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,11 +37,6 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2JScSshWGaOU5Z6Iu5jlcMFIlxY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -222,6 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/JavaProjects/snowflake/reservation-service/src/main/java/rs/raf/reservationservice",
     "node.js.detected.package.eslint": "true",
@@ -233,6 +69,7 @@
     "project.structure.proportion": "0.21875",
     "project.structure.side.proportion": "0.48435545",
     "settings.editor.selected.configurable": "MavenSettings",
+    "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "ab37766a2c9399857877a0d5f2fb6995",
     "vue.rearranger.settings.migration": "true"
   }
@@ -577,6 +414,7 @@
       <workItem from="1674189022945" duration="8339000" />
       <workItem from="1674219691501" duration="7386000" />
       <workItem from="1674228443553" duration="47210000" />
+      <workItem from="1683557741305" duration="2487000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1672084640088</created>

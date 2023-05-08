@@ -56,7 +56,7 @@ public class InitRunner implements CommandLineRunner {
         vehicleModelRepository.save(vehicleModel);
 
         Vehicle vehicle = new Vehicle();
-        vehicle.setName("vehicle1");
+        vehicle.setVehicle_name("vehicle1");
         vehicle.setVehicle_type(vehicleType);
         vehicle.setVehicle_model(vehicleModel);
         vehicle.setHorse_power(400.0);

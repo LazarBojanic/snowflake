@@ -1,4 +1,4 @@
-package rs.raf.userservice.config;
+package rs.raf.reservationservice.config;
 
 
 import org.apache.activemq.ActiveMQConnectionFactory;
